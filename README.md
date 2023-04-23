@@ -7,10 +7,9 @@
 
 
 
-https://rmterayama.github.io/marioRunner/ 
+https://rmterayama.github.io/learning-Page2/
 
-Jogo simples do mario, onde o objetivo é não bater nos canos.
-Facil jogabilidade, basta precionar qualquer tecla para pular.
+O site em questão apresenta uma plataforma com o objetivo de oferecer cursos na área de desenvolvimento front-end. A empresa denominada Code Slin é fictícia e o site em questão foi desenvolvido como um projeto prático de aprendizagem das linguagens HTML, CSS e JS, tendo sido aplicados conceitos de responsividade no desenvolvimento do mesmo.
 
 # Versão para desktop
 ![Web](https://github.com/RMTerayama/learning-Page2/blob/main/assets/pc1.png)<br />
