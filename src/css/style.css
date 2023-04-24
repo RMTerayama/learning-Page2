@@ -484,6 +484,8 @@ input[type=radio]{
     display: flex;
     width: 100vw;
     height: 80vh;
+    background-image: url(../midias/Background.png);
+  background-size: cover;
     background-color: #424242;
 }
 .vantagem-face1 img{
