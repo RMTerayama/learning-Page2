@@ -65,8 +65,16 @@ font-weight: 500;
 .menu li a:hover::after {
     width: 100%;
 }
-
-
+#divLogo{
+    margin-top: -6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+/* #divLogo p{
+    margin-top: -3vh;
+} */
 .apresentacao{
     display: flex;
     justify-content:space-around;
@@ -74,7 +82,7 @@ font-weight: 500;
     width: 105vw;
 }
 .logo{
-    width: 25vw;
+    width: 20vw;
     filter: drop-shadow(0px 16px 16px rgba(0, 0, 0, 1));
 }
 .apresentacao p{
@@ -638,6 +646,17 @@ footer{
     }
   } 
   @media only screen and (max-width: 500px){
+    #divLogo{
+     margin-top: 0vh;
+       
+    }
+
+    #divLogo p{
+       
+        display: none;
+        
+    }
+
     .fundo-video .video,.fundo-video::after {
         height: 100vh;
     }
@@ -671,7 +690,7 @@ footer{
         display: none;
     }
     .linguagens{
-        top:-42vw;
+        top:-15vw;
     }
     .linguagens img{
         z-index: 10;
