@@ -4,6 +4,19 @@ html {
 body{
     overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(77, 4, 138);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(11, 0, 75);  /* creates padding around scroll thumb */
+  }
 :target {
     scroll-margin-top: 15vh;
   }
