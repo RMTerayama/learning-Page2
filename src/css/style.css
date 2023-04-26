@@ -631,14 +631,21 @@ footer{
 
 
 @media only screen and (max-width: 1440px){
+    /* .card-face2{
+       font-size: 12px;
+       
+    } */
     .card-face1,.card-face2{
         width: 25vw;
         max-width: 25vw;
     }
-    .card-face2{
-        font-size: 14px;
+    .card:hover .card-face2{
+        height: 45vh;
+       
     }
-    .card-face2 input{
+ 
+
+        .card-face2 input{
         background-color: #00bb00;
         width: 6.5vw;
         cursor: pointer;
