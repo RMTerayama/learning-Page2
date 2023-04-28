@@ -667,17 +667,35 @@ footer{
         margin-left: -50vh;
     }
   } 
-  @media only screen and (max-width: 500px){
-    #divLogo{
-     margin-top: 0vh;
-       
+  @media screen and (max-width: 500px) and (min-height: 800px) {
+    .logo{
+        width: 1vw; 
+      }
+    .text{
+        margin-top: -100vh;
     }
+    .linguagens{
+        display: none;
+    }
+    #card1-face2,#card2-face2{
+        height: 25vh;
+    
+    }
+}
+  @media only screen and (max-width: 500px){
+    .apresentacao img{
+        width: 25vw;
+        margin-top: 10vh;
+    }
+   
+    
 
     #divLogo p{
        
         display: none;
         
     }
+
 
     .fundo-video .video,.fundo-video::after {
         height: 100vh;
